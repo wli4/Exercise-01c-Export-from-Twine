@@ -13,7 +13,7 @@ Open Twine. In the right-hand sidebar, select "Formats". You should see a list o
 
 The window should now read "To add a story format, enter its address below." Enter https://lazerwalker.com/twison/format.js and press the green "Add" button.
 
-Now, press the green "+Story" button. Give the story a name (whatever you would like). Create a story with at least four passages. I recommend the 
+Now, press the green "+Story" button. Give the story a name (whatever you would like). Create a story with at least four passages. 
 
 If you need additional help with the Twine syntax or getting started, you can follow the example at the [Twine Cookbook](https://twinery.org/cookbook/starting/twine2/firststory.html). For more information about Passage links, read [Creating Links](https://twinery.org/cookbook/starting/twine2/creatinglinks.html).
 
