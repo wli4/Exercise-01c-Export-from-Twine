@@ -1,20 +1,25 @@
 {
   "passages": [
     {
-      "text": "You are on the bridge of the Enterprise. Data is at Ops. Geordi is flying the ship\n\n[[Go to the captain's ready room->Ready Room]]\n[[Go to the turbolift->Turbolift]]",
+      "text": "The snows are falling and white winds are blowing, meanwhile you are lost on your path to COVID testing site. You feel cold and helpless.\n\nWhoosh! A white-haired lady in a pink robe appeared in front of you. \n\n\"My name is Gramma R. My magic can guide you to your desire, only if you have enough command of GRAMMAR!\" \n\nGramma R waves a shiny purple wand elegantly and fairy dusts gathered into words in mid-air: \"Every possible means _____ .\" \n\nThree Portals with writings on them appeared before you.\n\n[[Go to the portal saying \"has tried\"->Portal A]]\n[[Go to the portal saying \"has been tried\"->Portal B]]\n[[Go to the portal saying \"were tried\"->Portal C]]",
       "links": [
         {
-          "name": "Go to the captain's ready room",
-          "link": "Ready Room",
+          "name": "Go to the portal saying \"has tried\"",
+          "link": "Portal A",
           "pid": "2"
         },
         {
-          "name": "Go to the turbolift",
-          "link": "Turbolift",
+          "name": "Go to the portal saying \"has been tried\"",
+          "link": "Portal B",
           "pid": "3"
+        },
+        {
+          "name": "Go to the portal saying \"were tried\"",
+          "link": "Portal C",
+          "pid": "4"
         }
       ],
-      "name": "Enterprise bridge",
+      "name": "Winter Road",
       "pid": "1",
       "position": {
         "x": "405",
@@ -22,35 +27,60 @@
       }
     },
     {
-      "text": "You are in the captain's ready room\n\n[[Go back to the bridge->Enterprise bridge]] ",
+      "text": "A grey wolf as large as a truck is inside portal. It is dashing to you with all its speed, with fangs of your size.\n\n[[Jump back into the portal to resume->Winter Road]]",
       "links": [
         {
-          "name": "Go back to the bridge",
-          "link": "Enterprise bridge",
+          "name": "Jump back into the portal to resume",
+          "link": "Winter Road",
           "pid": "1"
         }
       ],
-      "name": "Ready Room",
+      "name": "Portal A",
       "pid": "2",
       "position": {
-        "x": "330",
+        "x": "210",
         "y": "321.5"
       }
     },
     {
-      "text": "You are in the turbolift\n\n[[Go back to the bridge->Enterprise bridge]] ",
+      "text": "Warm air and friendly nurses are surrounding you. Congradulations! You arrived at COVID testing site!\n[[Play Again->Winter Road]]",
       "links": [
         {
-          "name": "Go back to the bridge",
-          "link": "Enterprise bridge",
+          "name": "Play Again",
+          "link": "Winter Road",
           "pid": "1"
         }
       ],
-      "name": "Turbolift",
+      "name": "Portal B",
       "pid": "3",
       "position": {
-        "x": "480",
+        "x": "399",
+        "y": "333.5"
+      }
+    },
+    {
+      "text": "Crack! The Montain in front of portal starts to peel tons of snow onto you. It's an avalanche!\n[[Jump back into portal to resume->Winter Road]]",
+      "links": [
+        {
+          "name": "Jump back into portal to resume",
+          "link": "Winter Road",
+          "pid": "1"
+        }
+      ],
+      "name": "Portal C",
+      "pid": "4",
+      "position": {
+        "x": "600",
         "y": "321.5"
+      }
+    },
+    {
+      "text": "Double-click this passage to edit it.",
+      "name": "Jump back into the portal to resume->",
+      "pid": "5",
+      "position": {
+        "x": "210",
+        "y": "471.5"
       }
     }
   ],
