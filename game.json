@@ -1,0 +1,62 @@
+{
+  "passages": [
+    {
+      "text": "You are on the bridge of the Enterprise. Data is at Ops. Geordi is flying the ship\n\n[[Go to the captain's ready room->Ready Room]]\n[[Go to the turbolift->Turbolift]]",
+      "links": [
+        {
+          "name": "Go to the captain's ready room",
+          "link": "Ready Room",
+          "pid": "2"
+        },
+        {
+          "name": "Go to the turbolift",
+          "link": "Turbolift",
+          "pid": "3"
+        }
+      ],
+      "name": "Enterprise bridge",
+      "pid": "1",
+      "position": {
+        "x": "405",
+        "y": "171.5"
+      }
+    },
+    {
+      "text": "You are in the captain's ready room\n\n[[Go back to the bridge->Enterprise bridge]] ",
+      "links": [
+        {
+          "name": "Go back to the bridge",
+          "link": "Enterprise bridge",
+          "pid": "1"
+        }
+      ],
+      "name": "Ready Room",
+      "pid": "2",
+      "position": {
+        "x": "330",
+        "y": "321.5"
+      }
+    },
+    {
+      "text": "You are in the turbolift\n\n[[Go back to the bridge->Enterprise bridge]] ",
+      "links": [
+        {
+          "name": "Go back to the bridge",
+          "link": "Enterprise bridge",
+          "pid": "1"
+        }
+      ],
+      "name": "Turbolift",
+      "pid": "3",
+      "position": {
+        "x": "480",
+        "y": "321.5"
+      }
+    }
+  ],
+  "name": "Grammar Magic 2",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.9",
+  "ifid": "E8E08800-91E2-4B43-ACDB-0AAAB3CEF17D"
+}
